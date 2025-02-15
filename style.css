@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.cover {
+    text-align: center;
+}
+
+.heart {
+    font-size: 100px;
+}
+
+h1 {
+    font-size: 48px;
+    margin: 20px 0;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff6b6b;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ff4c4c;
+}
+
+.mailbox {
+    width: 60%; /* Adjust width to make it smaller */
+    max-width: 800px; /* Set a maximum width */
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.letter {
+    width: 100%; /* Adjust width to fit within the mailbox */
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.folder {
+    width: 100%; /* Adjust width to fit within the mailbox */
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery-image {
+    width: 20%; /* Set width to a smaller percentage */
+    height: auto; /* Maintain aspect ratio */
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    opacity: 0; /* Start hidden */
+    transition: opacity 0.5s ease; /* Smooth transition for opacity */
+}

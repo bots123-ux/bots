@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Album</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="cover">
+        <div class="heart" onclick="showMailbox()">❤️</div>
+        <h1 onclick="showMailbox()">ineffable</h1>
+        <button id="showButton" onclick="showImages()">Click to Show</button>
+    </div>
+
+    <div class="mailbox" style="display: none;">
+        <div class="letter" style="display: none;">
+            <div class="gallery">
+                <img src="img/img1.jpg" alt="Image 1" class="gallery-image">
+                <img src="img/img2.jpg" alt="Image 2" class="gallery-image">
+                <img src="img/img3.jpg" alt="Image 3" class="gallery-image">
+                <img src="img/img4.jpg" alt="Image 4" class="gallery-image">
+                <img src="img/img5.jpg" alt="Image 5" class="gallery-image">
+            </div>
+        </div>
+        <button id="showMoreButton" onclick="showImages()">Show More</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
