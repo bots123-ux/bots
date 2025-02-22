@@ -1,0 +1,30 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.heart-button {
+    font-size: 50px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.container {
+    display: inline-block; /* Makes the container fit the content */
+    text-align: center; /* Center-aligns the text inside the container */
+    margin-top: 20px; /* Adds some space above the container */
+}
+
+img {
+    border: 2px solid #333;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#motivationalMessage {
+    margin-top: 10px; /* Adds space between the GIF and the message */
+}
